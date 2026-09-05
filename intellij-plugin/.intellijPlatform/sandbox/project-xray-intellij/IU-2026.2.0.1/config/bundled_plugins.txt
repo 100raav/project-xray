@@ -1,0 +1,120 @@
+AngularJS|JavaScript Frameworks and Tools
+ByteCodeViewer|JVM Tools
+Coverage|JVM Tools
+Docker|Deployment
+Git4Idea|Version Controls
+HtmlTools|HTML and XML
+JSIntentionPowerPack|JavaScript Frameworks and Tools
+JUnit|Test Tools
+JavaScriptDebugger|JavaScript Frameworks and Tools
+JavaScript|JavaScript Frameworks and Tools
+Lombook Plugin|JVM Frameworks
+TestNG-J|Test Tools
+XPathView|HTML and XML
+com.android.tools.gradle.dcl|null
+com.intellij.code.provenance|null
+com.intellij.compose|Kotlin Frameworks
+com.intellij.configurationScript|IDE Settings
+com.intellij.copyright|IDE Settings
+com.intellij.css|Style Sheets
+com.intellij.database|Database
+com.intellij.debugger.collections.visualizer|JVM Tools
+com.intellij.dev|Platform Development
+com.intellij.dfa.analysis|null
+com.intellij.diagram|Other Tools
+com.intellij.flyway|Database
+com.intellij.gradle|Build Tools
+com.intellij.groovy.scripting|Languages
+com.intellij.java-i18n|JVM Tools
+com.intellij.java.ide|IDE Settings
+com.intellij.javaee.el|JVM Frameworks
+com.intellij.javaee|JVM Frameworks
+com.intellij.ja|IDE Localization
+com.intellij.jpa.jpb.model|JVM Frameworks
+com.intellij.jsonpath|Languages
+com.intellij.jsp|Template Languages
+com.intellij.ko|IDE Localization
+com.intellij.liquibase|Database
+com.intellij.mcpServer|AI-Powered
+com.intellij.mermaid|null
+com.intellij.microservices.jvm|JVM Frameworks
+com.intellij.microservices.ui|Microservices
+com.intellij.modules.jcef|Other Tools
+com.intellij.modules.json|Languages
+com.intellij.platform.acp|IDE Settings
+com.intellij.platform.daemon|IDE Settings
+com.intellij.platform.images|null
+com.intellij.plugins.eclipsekeymap|Keymap
+com.intellij.plugins.netbeanskeymap|Keymap
+com.intellij.plugins.visualstudiokeymap|Keymap
+com.intellij.plugins.webcomponents|JavaScript Frameworks and Tools
+com.intellij.properties|Languages
+com.intellij.react|JavaScript Frameworks and Tools
+com.intellij.searcheverywhere.ml|Local AI/ML Tools
+com.intellij.settingsSync|IDE Settings
+com.intellij.spring.boot.initializr|JVM Frameworks
+com.intellij.spring.boot|JVM Frameworks
+com.intellij.spring|JVM Frameworks
+com.intellij.stylelint|JavaScript Frameworks and Tools
+com.intellij.swagger|Microservices
+com.intellij.thymeleaf|Template Languages
+com.intellij.zh|IDE Localization
+com.intellij|null
+com.jetbrains.performancePlugin|Platform Development
+com.jetbrains.remoteDevServer|Remote Development
+com.jetbrains.remoteDevelopment|Remote Development
+com.jetbrains.restClient|Microservices
+com.jetbrains.sh|Languages
+com.jetbrains.station|Remote Development
+idea.plugin.protoeditor|Languages
+intellij.bookmarks.plugin|null
+intellij.debuggerMcp|null
+intellij.execution.serviceView.plugin|null
+intellij.git.commit.modal|Version Controls
+intellij.grid.core.plugin|null
+intellij.grid.plugin|null
+intellij.indexing.shared.core|IDE Settings
+intellij.java.aetherDependencyResolver.plugin|null
+intellij.javascript.eslint|JavaScript Frameworks and Tools
+intellij.ktor|Kotlin Frameworks
+intellij.libraries.misc.plugin|null
+intellij.navbar.plugin|null
+intellij.platform.ijent.bundledBinaries|Remote Development
+intellij.prettierJS|JavaScript Frameworks and Tools
+intellij.recentFiles.plugin|null
+intellij.ssh.plugin|null
+intellij.structuralSearch.plugin|null
+intellij.structureView.plugin|null
+intellij.testRunner.plugin|null
+intellij.todo.plugin|null
+intellij.vcs.split.plugin|null
+intellij.vitejs|JavaScript Frameworks and Tools
+intellij.webpack|JavaScript Frameworks and Tools
+intellij.webp|null
+jshint|JavaScript Frameworks and Tools
+org.editorconfig.editorconfigjetbrains|IDE Settings
+org.intellij.groovy.live.templates|null
+org.intellij.groovy|Languages
+org.intellij.plugins.markdown|Languages
+org.intellij.plugins.postcss|Style Sheets
+org.intellij.qodana|null
+org.jetbrains.completion.full.line|Local AI/ML Tools
+org.jetbrains.idea.eclipse|Other Tools
+org.jetbrains.idea.gradle.dsl|null
+org.jetbrains.idea.maven|Build Tools
+org.jetbrains.idea.reposearch|Build Tools
+org.jetbrains.java.decompiler|JVM Tools
+org.jetbrains.kotlin|Languages
+org.jetbrains.plugins.github|Version Controls
+org.jetbrains.plugins.gitlab|Version Controls
+org.jetbrains.plugins.gradle|Build Tools
+org.jetbrains.plugins.javaFX|JVM Frameworks
+org.jetbrains.plugins.terminal|Other Tools
+org.jetbrains.plugins.textmate|Languages
+org.jetbrains.plugins.vue|JavaScript Frameworks and Tools
+org.jetbrains.plugins.yaml|Languages
+org.jetbrains.security.package-checker|null
+org.toml.lang|Languages
+tanvd.grazi|Languages
+training|null
+tslint|JavaScript Frameworks and Tools

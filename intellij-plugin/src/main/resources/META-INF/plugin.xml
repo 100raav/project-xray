@@ -1,0 +1,71 @@
+<idea-plugin>
+    <id>com.projectxray</id>
+    <name>Project X-Ray Codebase Intelligence</name>
+    <version>1.0.0</version>
+    <vendor>Saurav Kumar Bichha</vendor>
+
+    <description><![CDATA[
+        <p><b>Project X-Ray</b> is a local-first codebase intelligence layer for Java and Spring Boot projects.</p>
+        <p>Explore architecture, dependencies, exact symbols, change impact and code health without leaving IntelliJ IDEA.</p>
+        <p>Analysis is delegated to the reusable Project X-Ray core so the same repository intelligence can power VS Code and CLI workflows.</p>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Project X-Ray"
+                anchor="right"
+                icon="/icons/xray.svg"
+                factoryClass="com.projectxray.intellij.XRayToolWindowFactory"/>
+
+        <projectService
+                serviceImplementation="com.projectxray.intellij.XRayProjectService"/>
+
+        <projectService
+                serviceImplementation="com.projectxray.intellij.XRayLiveChangeServiceHolder"/>
+
+        <lineMarkerProvider
+                language="JAVA"
+                implementationClass="com.projectxray.intellij.XRayDependencyLineMarkerProvider"/>
+
+        <applicationConfigurable
+                id="tools.projectxray"
+                instance="com.projectxray.intellij.XRaySettingsConfigurable"
+                parentId="tools"/>
+
+        <postStartupActivity
+                implementation="com.projectxray.intellij.XRayStartupActivity"/>
+    </extensions>
+
+    <actions>
+        <group
+                id="ProjectXRay.Group"
+                text="Project X-Ray"
+                description="Project X-Ray codebase intelligence">
+
+            <add-to-group
+                    group-id="ToolsMenu"
+                    anchor="last"/>
+
+            <action
+                    id="ProjectXRay.Analyze"
+                    class="com.projectxray.intellij.XRayAnalyzeAction"
+                    text="Analyze Project"
+                    description="Run a Project X-Ray analysis"/>
+
+            <action
+                    id="ProjectXRay.ResolveSymbol"
+                    class="com.projectxray.intellij.XRayResolveSymbolAction"
+                    text="Resolve X-Ray Symbol at Caret"
+                    description="Bridge the IntelliJ PSI symbol to X-Ray"/>
+
+            <action
+                    id="ProjectXRay.Dependencies"
+                    class="com.projectxray.intellij.XRayDependenciesAction"
+                    text="Show X-Ray Dependencies at Caret"
+                    description="Show persisted dependencies and dependents"/>
+        </group>
+    </actions>
+</idea-plugin>

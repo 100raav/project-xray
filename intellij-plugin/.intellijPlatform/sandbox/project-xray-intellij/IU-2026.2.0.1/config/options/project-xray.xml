@@ -1,0 +1,5 @@
+<application>
+  <component name="ProjectXRaySettings">
+    <option name="cliJar" value="$USER_HOME$/Downloads/project-xray-1.0.0-source/core/target/xray-core-1.0.0.jar" />
+  </component>
+</application>

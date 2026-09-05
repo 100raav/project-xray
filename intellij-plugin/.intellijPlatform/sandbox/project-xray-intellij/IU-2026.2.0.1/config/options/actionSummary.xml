@@ -1,0 +1,34 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="1" l="1788581427064" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1788581427873" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="2" l="1788580819293" />
+    </e>
+    <e n="ShowSettings">
+      <i c="1" l="1788580828044" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1788580417739" />
+    </e>
+    <e n="com.intellij.ide.plugins.DynamicPluginVfsListener$prepareChange$2$afterVfsChange$1$1">
+      <i c="1" l="1788582487080" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1788586826160" />
+    </e>
+    <e n="com.intellij.openapi.options.newEditor.SettingsPasteAction">
+      <i c="1" l="1788581346337" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1788580628632" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="1" l="1788580593461" />
+    </e>
+  </component>
+</application>

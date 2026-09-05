@@ -1,0 +1,7 @@
+<project>
+  <component name="ExternalCompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="codemeetly-backend" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

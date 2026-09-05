@@ -1,0 +1,15 @@
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/AnalysisResultSchemaTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/ChangeImpactEngineTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/CodeHealthRadarEngineTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/CompilerContextResolverTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/DependencyAwareInvalidationEngineTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/DependencyGalaxyBuilderTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/IncrementalAnalysisEngineTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/JavaProjectAnalyzerTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/PartialAnalysisMergerTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/PersistentCodeIndexTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/PersistentMethodResolverTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/PersistentSymbolResolverTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/PersistentSymbolStoreTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/ScopedAnalyzerTest.java
+/Users/saurav/Downloads/project-xray-1.0.0-source/core/src/test/java/com/projectxray/core/SemanticFingerprintTest.java

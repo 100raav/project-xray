@@ -1,0 +1,38 @@
+{
+  "name": "project-xray",
+  "displayName": "Project X-Ray",
+  "description": "Local-first, repository-backed codebase intelligence and visualization.",
+  "version": "1.0.0",
+  "publisher": "saurav-kumar-bichha",
+  "engines": {"vscode": "^1.90.0"},
+  "categories": ["Other", "Visualization"],
+  "activationEvents": ["onCommand:projectXray.analyzeProject", "onCommand:projectXray.openReport", "onCommand:projectXray.openTimeMachine", "onCommand:projectXray.openHealthRadar", "onCommand:projectXray.refresh", "onCommand:projectXray.openIndex", "onCommand:projectXray.openInvalidationPlan", "onCommand:projectXray.openSymbolStore", "onCommand:projectXray.resolveSymbol", "onCommand:projectXray.openCompilerContext"],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {"command": "projectXray.analyzeProject", "title": "Project X-Ray: Analyze Project"},
+      {"command": "projectXray.openReport", "title": "Project X-Ray: Open Latest Report"},
+      {"command": "projectXray.openTimeMachine", "title": "Project X-Ray: Open Code Time Machine"},
+      {"command": "projectXray.openHealthRadar", "title": "Project X-Ray: Open Code Health Radar"},
+      {"command": "projectXray.refresh", "title": "Project X-Ray: Refresh Explorer"},
+      {"command": "projectXray.openIndex", "title": "Project X-Ray: Open Persistent Code Index"},
+      {"command": "projectXray.openInvalidationPlan", "title": "Project X-Ray: Open Dependency Invalidation Plan"},
+      {"command": "projectXray.openSymbolStore", "title": "Project X-Ray: Open Persistent Symbol Store"},
+      {"command": "projectXray.resolveSymbol", "title": "Project X-Ray: Resolve Symbol from Persistent Store"},
+      {"command": "projectXray.openCompilerContext", "title": "Project X-Ray: Open Compiler Context"}
+    ],
+    "viewsContainers": {"activitybar": [{"id": "projectXray", "title": "X-Ray", "icon": "media/xray.svg"}]},
+    "views": {"projectXray": [{"id": "projectXray.explorer", "name": "Project X-Ray"}]},
+    "configuration": {
+      "title": "Project X-Ray",
+      "properties": {
+        "projectXray.coreJarPath": {"type": "string", "description": "Absolute path to the Project X-Ray core JAR. Leave empty to use the development-repository default."},
+        "projectXray.analyzeOnSave": {"type": "boolean", "default": true, "description": "Re-analyze the open Java project after saving a Java source file."},
+        "projectXray.maxGitCommits": {"type": "number", "default": 12, "minimum": 1, "maximum": 100, "description": "Maximum Git commits reconstructed by the core for the Time Machine."},
+        "projectXray.maxGraphNodes": {"type": "number", "default": 5000, "minimum": 100, "maximum": 100000, "description": "UI rendering safety limit. Analysis remains repository-backed; this only limits browser rendering."}
+      }
+    }
+  },
+  "scripts": {"compile": "tsc -p ./", "watch": "tsc -watch -p ./", "package": "npm run compile && npx @vscode/vsce package"},
+  "devDependencies": {"@types/node": "22.10.2", "@types/vscode": "1.90.0", "typescript": "5.7.2", "@vscode/vsce": "3.2.1"}
+}

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="xray" x1="6" y1="8" x2="34" y2="32" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAF6FF"/>
+      <stop offset="0.45" stop-color="#8EDCFF"/>
+      <stop offset="1" stop-color="#00AEEF"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="8" y1="20" x2="32" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#008CFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#63E8FF"/>
+      <stop offset="1" stop-color="#008CFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="36" height="36" rx="9" fill="#06111F"/>
+  <rect x="2.75" y="2.75" width="34.5" height="34.5" rx="8.25"
+        fill="none" stroke="#168FFF" stroke-width="1.5"/>
+
+  <!-- X-Ray / code scanner -->
+  <path d="M9 8.5 L20 18.5 L31 8.5 L34 11.5 L23.5 20 L34 28.5 L31 31.5 L20 21.5 L9 31.5 L6 28.5 L16.5 20 L6 11.5 Z"
+        fill="url(#xray)"/>
+
+  <!-- Scan beam -->
+  <path d="M8 20 L32 20" stroke="url(#scan)" stroke-width="2.2"/>
+  <path d="M18 20 L31 14 L31 26 Z" fill="#19D8FF" opacity="0.10"/>
+
+  <!-- Code/dependency nodes -->
+  <g fill="#5DE5FF">
+    <circle cx="27" cy="14.5" r="1.25"/>
+    <circle cx="30" cy="17" r="1"/>
+    <circle cx="27" cy="25.5" r="1.25"/>
+    <circle cx="30" cy="23" r="1"/>
+  </g>
+
+  <g stroke="#55DFFF" stroke-width="0.8" opacity="0.75">
+    <path d="M27 14.5 L30 17"/>
+    <path d="M27 25.5 L30 23"/>
+  </g>
+
+  <circle cx="20" cy="20" r="1.7" fill="#FFFFFF"/>
+</svg>

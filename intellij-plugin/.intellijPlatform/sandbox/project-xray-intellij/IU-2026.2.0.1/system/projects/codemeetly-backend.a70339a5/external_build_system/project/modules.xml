@@ -1,0 +1,7 @@
+<project>
+  <component name="ExternalProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/codemeetly-backend.iml" filepath="$PROJECT_DIR$/.idea/codemeetly-backend.iml" />
+    </modules>
+  </component>
+</project>

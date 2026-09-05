@@ -1,0 +1,15 @@
+com/projectxray/core/JavaProjectAnalyzerTest.class
+com/projectxray/core/PersistentSymbolStoreTest.class
+com/projectxray/core/AnalysisResultSchemaTest.class
+com/projectxray/core/DependencyGalaxyBuilderTest.class
+com/projectxray/core/PersistentMethodResolverTest.class
+com/projectxray/core/PartialAnalysisMergerTest.class
+com/projectxray/core/PersistentCodeIndexTest.class
+com/projectxray/core/CompilerContextResolverTest.class
+com/projectxray/core/DependencyAwareInvalidationEngineTest.class
+com/projectxray/core/PersistentSymbolResolverTest.class
+com/projectxray/core/ScopedAnalyzerTest.class
+com/projectxray/core/CodeHealthRadarEngineTest.class
+com/projectxray/core/IncrementalAnalysisEngineTest.class
+com/projectxray/core/ChangeImpactEngineTest.class
+com/projectxray/core/SemanticFingerprintTest.class
